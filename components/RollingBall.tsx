@@ -23,7 +23,7 @@ const RollingBall = () => {
 
     return (
         <>
-            <div ref={ref} className="pt-[90px] flex relative flex-col items-center justify-center min-h-screen bg-blue-900 overflow-hidden py-[10px]">
+            <div ref={ref} className="pt-[90px] flex relative flex-col items-center justify-center min-h-screen bg-white text-black overflow-hidden py-[10px]">
                 {/* Text that will be revealed */}
                 <AnimatePresence>
                     <motion.h1
@@ -44,7 +44,7 @@ const RollingBall = () => {
                                 />
                                 About Zach Technologies Industries
                             </span>
-                            <span className={` ${fullText && "hidden"} text-xl font-medium mb-4 text-white`}>
+                            <span className={` ${fullText && "hidden"} text-xl font-medium mb-4 text-blue-900`}>
                                 At ZachTech Industries, we transform ideas into impactful technology.
                                 From custom software and AI to IoT and embedded systems, we deliver
                                 innovative, scalable solutions that empower startups, SMEs, and
@@ -52,7 +52,7 @@ const RollingBall = () => {
                                 technical excellence, and real-world results, we’re not just
                                 building technology — we’re building the future.
                             </span>
-                            <span className={` ${fullText ? "block" : "hidden"} text-xl font-medium mb-4 text-white`}>
+                            <span className={` ${fullText ? "block" : "hidden"} text-xl font-medium mb-4 text-blue-900`}>
                                 ZachTech Industries is a visionary technology firm committed to helping businesses and individuals unlock the full potential of digital innovation. By blending technical expertise with a passion for progress, ZachTech delivers tailored solutions that drive efficiency, enhance performance, and open new avenues for growth across industries. Their mission is to redefine how technology is developed and applied—transforming ideas into scalable, real-world impact.
                                 <br /><br />
 
@@ -77,7 +77,7 @@ const RollingBall = () => {
                                         // target="blank"
                                         // href={"https://x.com/ApexiumAgency"}
                                         onClick={() => setFullText(!fullText)}
-                                        className=" flex items-center justify-center w-fit text-sm mt-4 lg:text-lg text-white p-2 border border-blue-500 rounded-2xl font-extrabold bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700'"
+                                        className=" flex items-center justify-center w-fit text-sm mt-4 lg:text-lg text-blue-900 p-2 border border-blue-500 rounded-2xl font-extrabold bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700'"
                                     >
                                         <BookOpenText className=" mr-2" /> See Less
                                     </button>
@@ -86,7 +86,7 @@ const RollingBall = () => {
                                         // target="blank"
                                         // href={"https://x.com/ApexiumAgency"}
                                         onClick={() => setFullText(!fullText)}
-                                        className=" flex items-center justify-center w-fit text-sm mt-4 lg:text-lg text-white p-2 border border-blue-500 rounded-2xl font-extrabold bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700'"
+                                        className=" flex items-center justify-center w-fit text-sm mt-4 lg:text-lg text-blue-900 p-2 border border-blue-500 rounded-2xl font-extrabold bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700'"
                                     >
                                         <BookOpenText className=" mr-2" /> Learn More
                                     </button>

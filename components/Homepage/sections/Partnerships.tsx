@@ -29,7 +29,7 @@ const openSans = Open_Sans({
 
 const Partnerships = () => {
     return (
-        <div id="partnerships" className=' bg-blue-900 w-full min-h-[100vh] pt-[90px] flex flex-col items-center justify-center'>
+        <div id="partnerships" className=' bg-white w-full min-h-[100vh] pt-[90px] flex flex-col items-center justify-center'>
             <div className=' w-[95%] mx-auto flex items-center justify-center mb-[20px]'>
                 <h1 className=' z-[3] flex items-center justify-center uppercase font-bold text-white text-lg lg:text-4xl p-2 bg-gradient-to-tr from-blue-700 to-blue-300 w-full mx-auto lg:mx-0 lg:w-fit rounded-xl box-shadow'>
                     <Image
@@ -43,7 +43,7 @@ const Partnerships = () => {
 
             <div className=" w-[80%] flex flex-col lg:flex-row items-center justify-between">
                 <CardContainer className="inter-var">
-                    <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] text-blue-900 dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                    <CardBody className="bg-yellow-500 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] text-blue-900 dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                         <CardItem
                             translateZ="50"
                             className="text-xl font-bold"
@@ -75,7 +75,7 @@ const Partnerships = () => {
                 </CardContainer>
 
                 <CardContainer className="inter-var">
-                    <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] text-blue-900 dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                    <CardBody className="bg-yellow-500 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] text-blue-900 dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                         <CardItem
                             translateZ="50"
                             className="text-xl font-bold "
