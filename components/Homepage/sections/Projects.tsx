@@ -43,10 +43,10 @@ const Projects = () => {
                                 <div className=' w-full lg:w-[50%] p-4'>
                                     <h1 className=" font-bold text-xl capitalize"> {project.title}</h1>
                                     <p className=" font-light">{project.description}</p>
-                                    <h1 className=" font-bold mt-4 italic"> {project.tech}</h1>
+                                    {/* <h1 className=" font-bold mt-4 italic"> {project.tech}</h1> */}
                                     <div className=" w-full flex items-center justify-center mt-5">
                                         <Link target="blank" href={project.liveLink} className=" mx-3 px-6 py-2 rounded-md hover:bg-blue-900 border-blue-900 border-2 text-blue-900 hover:text-[#fff] hover:border-2 hover:border-blue-900 bg-transparent duration-500 font-semibold flex items-center justify-center"><OpenInNewOutlinedIcon className="mr-3" /> Live Site</Link>
-                                        <Link target="blank" href={project.github} className=" mx-3 px-6 py-2 rounded-md hover:bg-blue-900 border-blue-900 border-2 text-blue-900 hover:text-[#fff] hover:border-2 hover:border-blue-900 bg-transparent duration-500 font-semibold flex items-center justify-center"><GitHubIcon className="mr-3" /> GitHub</Link>
+                                        {/* <Link target="blank" href={project.github} className=" mx-3 px-6 py-2 rounded-md hover:bg-blue-900 border-blue-900 border-2 text-blue-900 hover:text-[#fff] hover:border-2 hover:border-blue-900 bg-transparent duration-500 font-semibold flex items-center justify-center"><GitHubIcon className="mr-3" /> GitHub</Link> */}
                                     </div>
                                 </div>
                             </div>
@@ -68,10 +68,10 @@ const Projects = () => {
                                 <div className=' w-full lg:w-[50%] p-4'>
                                     <h1 className=" font-bold text-xl capitalize"> {project.title}</h1>
                                     <p className=" font-light">{project.description}</p>
-                                    <h1 className=" font-bold mt-4 italic"> {project.tech}</h1>
+                                    {/* <h1 className=" font-bold mt-4 italic"> {project.tech}</h1> */}
                                     <div className=" w-full flex items-center justify-center mt-5">
                                         <Link target="blank" href={project.liveLink} className=" mx-3 px-6 py-2 rounded-md hover:bg-blue-900 border-blue-900 border-2 text-blue-900 hover:text-[#fff] hover:border-2 hover:border-blue-900 bg-transparent duration-500 font-semibold flex items-center justify-center"><OpenInNewOutlinedIcon className="mr-3" /> Live Site</Link>
-                                        <Link target="blank" href={project.github} className=" mx-3 px-6 py-2 rounded-md hover:bg-blue-900 border-blue-900 border-2 text-blue-900 hover:text-[#fff] hover:border-2 hover:border-blue-900 bg-transparent duration-500 font-semibold flex items-center justify-center"><GitHubIcon className="mr-3" /> GitHub</Link>
+                                        {/* <Link target="blank" href={project.github} className=" mx-3 px-6 py-2 rounded-md hover:bg-blue-900 border-blue-900 border-2 text-blue-900 hover:text-[#fff] hover:border-2 hover:border-blue-900 bg-transparent duration-500 font-semibold flex items-center justify-center"><GitHubIcon className="mr-3" /> GitHub</Link> */}
                                     </div>
                                 </div>
                             </div>
@@ -93,10 +93,10 @@ const Projects = () => {
                                 <div className=' w-full lg:w-[50%] p-4'>
                                     <h1 className=" font-bold text-xl capitalize"> {project.title}</h1>
                                     <p className=" font-light">{project.description}</p>
-                                    <h1 className=" font-bold mt-4 italic"> {project.tech}</h1>
+                                    {/* <h1 className=" font-bold mt-4 italic"> {project.tech}</h1> */}
                                     <div className=" w-full flex items-center justify-center mt-5">
                                         <Link target="blank" href={project.liveLink} className=" mx-3 px-6 py-2 rounded-md hover:bg-blue-900 border-blue-900 border-2 text-blue-900 hover:text-[#fff] hover:border-2 hover:border-blue-900 bg-transparent duration-500 font-semibold flex items-center justify-center"><OpenInNewOutlinedIcon className="mr-3" /> Live Site</Link>
-                                        <Link target="blank" href={project.github} className=" mx-3 px-6 py-2 rounded-md hover:bg-blue-900 border-blue-900 border-2 text-blue-900 hover:text-[#fff] hover:border-2 hover:border-blue-900 bg-transparent duration-500 font-semibold flex items-center justify-center"><GitHubIcon className="mr-3" /> GitHub</Link>
+                                        {/* <Link target="blank" href={project.github} className=" mx-3 px-6 py-2 rounded-md hover:bg-blue-900 border-blue-900 border-2 text-blue-900 hover:text-[#fff] hover:border-2 hover:border-blue-900 bg-transparent duration-500 font-semibold flex items-center justify-center"><GitHubIcon className="mr-3" /> GitHub</Link> */}
                                     </div>
                                 </div>
                             </div>
