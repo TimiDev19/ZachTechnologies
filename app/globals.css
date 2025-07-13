@@ -8,7 +8,13 @@
 }
 
 .background {
-  background-image: linear-gradient(rgba(12, 13, 17, 0.7), rgba(15, 18, 29, 0.7)), url(../assets/tech-background.jpeg);
+  background-image: url(../assets/Frame\ 25.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.background-vid {
+  background-image: url(../assets/Frame\ 21.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -19,4 +25,36 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.mission-bg {
+  background-image: url(../assets/mission.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.vision-bg {
+  background-image: url(../assets/vision.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.core-bg {
+  background-image: url(../assets/core.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-bg {
+  background-image: url(../assets/Subtract.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* Add this custom class for the clipped orange triangle */
+.clip-orange {
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
 }

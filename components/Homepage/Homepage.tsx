@@ -1,18 +1,28 @@
 import React from 'react'
 import Hero from './sections/Hero'
-import About from './sections/About'
-import Partnerships from './sections/Partnerships'
-import Projects from './sections/Projects'
-import Services from './sections/Services'
+import MeetCEO from './sections/MeetCEO'
+import Mission from './sections/Mission'
+import Vision from './sections/Vision'
+import CoreValue from './sections/CoreValue'
+import Team from './sections/Team'
+import Expertise from './sections/Expertise'
+import Client from './sections/Client'
+import Partners from './sections/Partners'
+import Contact from './sections/Contact'
 
 const Homepage = () => {
   return (
     <div className=" w-[100vw] h-[100vh] overflow-y-scroll scroll-smooth">
       <Hero />
-      <About />
-      <Services />
-      <Projects />
-      <Partnerships />
+      <MeetCEO />
+      <Mission />
+      <Vision />
+      <CoreValue />
+      <Expertise />
+      <Team />
+      <Client />
+      <Partners />
+      <Contact />
     </div>
   )
 }

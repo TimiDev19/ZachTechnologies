@@ -19,6 +19,16 @@ import expressJs from '@/assets/express.png'
 import apexium from "@/assets/apexium.png"
 import teekay from "@/assets/teekay.png"
 import skinny from "@/assets/skinny.png"
+import paul from "@/assets/Paulzack.jpg"
+import ebenezer from "@/assets/niza2.jpg"
+import teemi from "@/assets/timi.jpg"
+import ayomide from "@/assets/ay.jpg"
+import faith from "@/assets/faith.jpg"
+import patience from "@/assets/PAT.jpg"
+import phase3 from "@/assets/phase3.png"
+import aClass from "@/assets/aClass.png"
+import p1 from "@/assets/partner_one.png"
+import p2 from "@/assets/desina.jpg"
 
 const techstack = {
     "languages": [
@@ -113,7 +123,7 @@ const techstack = {
             about: "Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration."
         },
     ],
-    "projects":[
+    "projects": [
         {
             image: kanban,
             title: "Kanban Task Manager",
@@ -177,6 +187,56 @@ const techstack = {
             tech: "NextJs, TailwindCSS, Framer Motion",
             category: "portfolio"
         },
+    ],
+    "team": [
+        {
+            image: paul,
+            name: "Udah Paulzack E. M",
+            role: "C.E.O/ Founder"
+        },
+        {
+            image: ebenezer,
+            name: "Undie Ebenezer",
+            role: "Senior software Developer"
+        },
+        {
+            image: teemi,
+            name: "Oluwatimilehin Ayodeji Rotimi",
+            role: "Full stack Developer"
+        },
+        {
+            image: ayomide,
+            name: "Ayomide Christopher A",
+            role: "Senior full stack Developer"
+        },
+        {
+            image: faith,
+            name: "Ajiboye Faith Kehinde",
+            role: "Lead UI/UX designer and graphic designer"
+        },
+        {
+            image: patience,
+            name: "Omahi Patience Aricha",
+            role: "Project Manager"
+        }
+    ],
+    "clients": [
+        {
+            image: phase3
+        },
+        {
+            image: aClass
+        }
+    ],
+    "partners": [
+        {
+            image: p1,
+            name: "AMUFU AGRO PROCESSING INDUSTRY"
+        },
+        {
+            image: p2,
+            name: "DESINA CAPITAL"
+        }
     ]
 }
 
