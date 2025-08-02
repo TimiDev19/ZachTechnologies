@@ -27,7 +27,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="z-[3] h-auto  w-[100vw] relative flex flex-col items-center justify-end"
+      className="z-[3] h-auto   w-[100vw] relative flex flex-col items-center justify-end"
     >
       <div className="relative w-full h-full">
         {/* Top Section (overlapping) */}
@@ -48,7 +48,7 @@ const Hero = () => {
               Technologies beyond possibility
             </h1>
             <h1
-              className={`${goldman.className} text-white text-[45px] capitalize mb-4`}
+              className={`${goldman.className} text-whit max-sm:text-[] max-sm: text-[#000033] [45px] capitalize mb-4`}
             >
               for better business
             </h1>
@@ -112,7 +112,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className=" w-[30%] max-sm:w-50%  h-full flex items-center justify-center ">
+            <div className=" w-[30%] max-sm:w-50% max-sm:mt-5  max-sm:mb-5 h-full flex items-center justify-center ">
               <Image src={transparentLogo} alt="zach tech logo" />
             </div>
 
@@ -134,7 +134,7 @@ const Hero = () => {
                 <div
                   className={`${goldman.className} w-[calc(100%-60px)] text-black`}
                 >
-                  <h1>MOBILE DEVELOPMENT</h1>
+                  <h1>Mobile Development</h1>
                   <p className=" text-[16px]">
                     iOS Application, Android Application, App publication
                     (playstore & apply store), App optimization, Cross platform
@@ -151,7 +151,7 @@ const Hero = () => {
                 <div
                   className={`${goldman.className} w-[calc(100%-60px)] text-black`}
                 >
-                  <h1>WEB DEVELOPMENT</h1>
+                  <h1>Web Development</h1>
                   <p className=" text-[16px]">
                     BLOG WEBSITE, SEARCH ENGINE OPTIMIZATION (SEO), CORPORATE
                     WEBSITE, REAL ESTATE WEBSITE, SME WEBSITE, E-COMMERCE
