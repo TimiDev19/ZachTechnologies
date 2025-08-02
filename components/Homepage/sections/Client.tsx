@@ -11,7 +11,7 @@ const goldman = Goldman({
 
 const Client = () => {
     return (
-        <div id="clients" className='pt-[100px]'>
+        <div id="clients" className='pt-[100px] relative'>
             <h1 className={`${goldman.className} text-center text-[#000033] text-[45px] mb-4`}>Our <span className=' text-[#EEAD0E]'>Clients</span></h1>
             <div className='w-full overflow-x-auto flex items-start justify-center flex-nowrap whitespace-nowrap p-[2.5%]'>
                 {

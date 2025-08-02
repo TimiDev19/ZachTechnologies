@@ -14,12 +14,12 @@ const Team = () => {
     return (
         <div id="team" className='pt-[100px] w-screen h-screen'>
             <h1 className={`${goldman.className} text-center text-[#000033] text-[45px] mb-4`}>Meet <span className=' text-[#EEAD0E]'>Our</span> Team</h1>
-            <div className='w-full overflow-x-auto flex items-start flex-nowrap whitespace-nowrap p-[2.5%] h-[60vh]'>
+            <div className='w-full overflow-x-auto flex items-start flex-nowrap whitespace-nowrap p-[2.5%] h-[60vh] max-sm:grid max-sm:grid-cols-2 max-sm:h-auto'>
                 {
                     techstack.team.map((person, index) => (
                         <div
                             key={index}
-                            className={`${goldman.className} flex-shrink-0 min-h-full inline-block w-[20vw] bg-[#000033] mx-[10px]`}
+                            className={`${goldman.className} flex-shrink-0 min-h-full inline-block w-[20vw] bg-[#000033] mx-[10px] max-sm:w-full max-sm:gap-10`}
                         >
                             <Image
                                 src={person.image}

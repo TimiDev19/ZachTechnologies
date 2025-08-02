@@ -12,7 +12,7 @@ import Contact from './sections/Contact'
 
 const Homepage = () => {
   return (
-    <div className=" w-[100vw] h-[100vh] overflow-y-scroll scroll-smooth">
+    <div className=" w-[100vw] h-[auto] overflow-y-scroll scroll-smooth">
       <Hero />
       <MeetCEO />
       <Mission />
@@ -21,8 +21,8 @@ const Homepage = () => {
       <Expertise />
       <Team />
       <Client />
-      <Partners />
-      <Contact />
+      <Partners /> 
+       <Contact />
     </div>
   )
 }

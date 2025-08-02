@@ -17,12 +17,12 @@ const Contact = () => {
     return (
         <div id="contact" className={`${goldman.className} pt-[100px]`}>
             <h1 className={`${goldman.className} text-center text-[#000033] text-[45px] mb-4`}>Contact <span className=' text-[#EEAD0E]'>Us</span></h1>
-            <div className=' h-[50vh] w-screen mb-[50px]'>
+            <div className=' h-[50vh] w-screen mb-[50px] '>
                 <form
                     action=""
-                    className=' flex items-center justify-between w-[90%] mx-auto h-full'
+                    className=' flex items-center justify-between w-[90%] mx-auto h-full max-sm:flex-col'
                 >
-                    <div className=' h-full w-[45%] flex-col items-center justify-between '>
+                    <div className=' h-full w-[45%] flex-col items-center justify-between max-sm:w-full '>
                         <input
                             type="text"
                             placeholder='Name'
@@ -39,7 +39,7 @@ const Contact = () => {
                             className=' w-full border-b-2 border-b-[#eead0e] text-black mb-[90px] h-[50px]'
                         />
                     </div>
-                    <div className=' h-full w-[45%] flex-col items-center justify-between '>
+                    <div className=' h-full w-[45%] flex-col items-center  max-sm:w-full justify-between '>
                         <textarea
                             className="w-full h-full resize-none p-2 rounded border border-[#eead0e] focus:outline-none focus:shadow-[#eead0e] focus:shadow-sm"
                             placeholder="Leave message..."
