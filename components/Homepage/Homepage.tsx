@@ -14,7 +14,7 @@ const Homepage = () => {
   return (
     <div className=" w-[100vw] h-[auto] overflow-y-scroll scroll-smooth">
       <Hero />
-      <MeetCEO />
+      {/* <MeetCEO /> */}
       <Mission />
       <Vision />
       <CoreValue />

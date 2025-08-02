@@ -192,7 +192,7 @@ const techstack = {
         {
             image: paul,
             name: "Udah Paulzack E. M",
-            role: "C.E.O/ Founder"
+            role: "Mobile Developer"
         },
         {
             image: ebenezer,
