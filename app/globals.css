@@ -7,6 +7,7 @@
   --spacing: 0.25rem;
 }
 
+
 .background {
   background-image: url(../assets/Frame\ 25.png);
   background-repeat: no-repeat;
@@ -58,3 +59,4 @@
 .clip-orange {
   clip-path: polygon(100% 0, 100% 100%, 0 100%);
 }
+
