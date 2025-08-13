@@ -35,6 +35,13 @@
   background-size: cover;
 }
 
+.mission-bg-res {
+  background-image: linear-gradient(rgba(12, 13, 17, 0.7), rgba(15, 18, 29, 0.7)), url(../assets/mission.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .vision-bg {
   background-image: url(../assets/vision.png);
   background-repeat: no-repeat;
@@ -42,8 +49,22 @@
   background-size: cover;
 }
 
+.vision-bg-res {
+  background-image: linear-gradient(rgba(12, 13, 17, 0.7), rgba(15, 18, 29, 0.7)), url(../assets/vision.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .core-bg {
   background-image: url(../assets/core.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.core-bg-res {
+  background-image: linear-gradient(rgba(12, 13, 17, 0.7), rgba(15, 18, 29, 0.7)), url(../assets/core.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
