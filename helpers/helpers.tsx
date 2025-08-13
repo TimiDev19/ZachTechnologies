@@ -200,24 +200,24 @@ const techstack = {
             role: "Senior software Developer"
         },
         {
-            image: teemi,
-            name: "Oluwatimilehin Ayodeji Rotimi",
-            role: "Full stack Developer"
-        },
-        {
-            image: ayomide,
-            name: "Ayomide Christopher A",
-            role: "Senior full stack Developer"
-        },
-        {
             image: faith,
             name: "Ajiboye Faith Kehinde",
             role: "Lead UI/UX designer and graphic designer"
         },
         {
+            image: teemi,
+            name: "Oluwatimilehin Ayodeji Rotimi",
+            role: "Full stack Developer"
+        },
+        {
             image: patience,
             name: "Omahi Patience Aricha",
             role: "Project Manager"
+        },
+        {
+            image: ayomide,
+            name: "Ayomide Christopher A",
+            role: "Senior full stack Developer"
         }
     ],
     "clients": [

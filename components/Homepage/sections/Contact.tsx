@@ -42,6 +42,12 @@ const Contact = () => {
               placeholder="Phone"
               className=" w-full border-b-2 border-b-[#eead0e] text-black mb-[90px] h-[50px]"
             />
+            <Link
+              href={"/#contact"}
+              className={`${goldman.className} text-white text-2xl px-[10px] py-[6px] rounded-md bg-[#EEAD0E]`}
+            >
+              Contact Us
+            </Link>
           </div>
           <div className=" h-full w-[45%] flex-col items-center  max-sm:w-full justify-between ">
             <textarea
@@ -51,7 +57,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      
+
       <div className=" h-[90vh] max-sm:h-auto w-screen mb-[50px] flex max-sm:flex-col items-center justify-between px-[2.5%]">
         <div className=" w-[45%] max-sm:w-full  h-full">
           <h1 className=" text-6xl max-sm:text-3xl mb-5">

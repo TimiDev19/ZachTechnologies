@@ -43,15 +43,15 @@ const Hero = () => {
               today
             </h1>
             <h1
-              className={`${islandMoments.className} text-[40px] text-[#000033]`}
+              className={`${goldman.className} text-[40px] text-[#000033]`}
             >
               Technologies beyond possibility
             </h1>
-            <h1
+            {/* <h1
               className={`${goldman.className} text-whit max-sm:text-[] max-sm: text-[#000033] [45px] capitalize mb-4`}
             >
               for better business
-            </h1>
+            </h1> */}
           </div>
         </div>
 
@@ -74,7 +74,7 @@ const Hero = () => {
                   <h1>UI/UX Design</h1>
                   <p className=" text-[16px]">
                     Wireframing, UI design (mobile and website), UX design
-                    (mobile and website), UI and UX design (mobile and website),
+                    (mobile and website),
                     Rebranding, Graphic design ,Motion pictures
                   </p>
                 </div>
@@ -83,7 +83,7 @@ const Hero = () => {
                   <Image src={service} alt="" />
                 </div>
               </div>
-              <div className=" w-full flex items-center justify-between mb-4">
+              {/* <div className=" w-full flex items-center justify-between mb-4">
                 <div
                   className={`${goldman.className} w-[calc(100%-60px)] text-black`}
                 >
@@ -95,7 +95,7 @@ const Hero = () => {
                 <div className=" h-[50px] w-[50px] p-2 rounded-full bg-[#EEAD0E] flex items-center justify-center">
                   <Image src={service2} alt="" />
                 </div>
-              </div>
+              </div> */}
               <div className=" w-full flex items-center justify-between mb-4">
                 <div
                   className={`${goldman.className} w-[calc(100%-60px)] text-black`}
@@ -123,7 +123,7 @@ const Hero = () => {
                 >
                   <h1>Back End</h1>
                   <p className=" text-[16px]">
-                    Mongo dB, JavaScript, SQL, Cloud services, Web hosting etc
+                    Server maintenance,web hosting,server migration and much more.
                   </p>
                 </div>
                 <div className=" h-[50px] w-[50px] p-2 rounded-full bg-[#EEAD0E] flex items-center justify-center">
@@ -136,10 +136,7 @@ const Hero = () => {
                 >
                   <h1>Mobile Development</h1>
                   <p className=" text-[16px]">
-                    iOS Application, Android Application, App publication
-                    (playstore & apply store), App optimization, Cross platform
-                    applications (iOS and Android) Application updating and
-                    maintenance, Code revamp
+                    maintenance,optimization, development and many more world class services
                   </p>
                 </div>
                 <div className=" h-[50px] w-[50px] p-2 rounded-full bg-[#EEAD0E] flex items-center justify-center">
@@ -152,11 +149,8 @@ const Hero = () => {
                   className={`${goldman.className} w-[calc(100%-60px)] text-black`}
                 >
                   <h1>Web Development</h1>
-                  <p className=" text-[16px]">
-                    BLOG WEBSITE, SEARCH ENGINE OPTIMIZATION (SEO), CORPORATE
-                    WEBSITE, REAL ESTATE WEBSITE, SME WEBSITE, E-COMMERCE
-                    WEBSITE, DATING WEBSITE, WEBSITE UPGRADING N SCALING, HOST
-                    MIGRATION.
+                  <p className=" text-[16px] ">
+                    Blog website, serach engine optimization (SEO), corpoare website, Real estate website, SME website, eCommerce website, dating website, website upgrading and scaling, host migration.
                   </p>
                 </div>
                 <div className=" h-[50px] w-[50px] p-2 rounded-full bg-[#EEAD0E] flex items-center justify-center">
@@ -167,7 +161,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      
+
 
       <div className="relative">
         {/* Top Section (overlapping) */}
@@ -220,18 +214,12 @@ const Hero = () => {
                   startups, SMES, and large enterprises to thrive in today's
                   digital world.
                 </p>
-                <Link
-                  href={"/#contact"}
-                  className={`${goldman.className} text-white text-2xl px-[10px] py-[6px] rounded-md bg-[#EEAD0E]`}
-                >
-                  Contact Us
-                </Link>
               </div>
             </div>
           </div>
         </div>
 
-       <div
+        <div
           id="service"
           className="-mt-64 z-0 bg-white pt-0 h-[130vh] w-full text-xl background-vid"
         ></div>
