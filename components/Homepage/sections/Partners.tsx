@@ -14,7 +14,7 @@ const Partners = () => {
     return (
         <div id="partners" className='pt-[100px]'>
             <h1 className={`${goldman.className} text-center text-[#000033] text-[45px] mb-4`}>Our <span className=' text-[#EEAD0E]'>Partners</span></h1>
-            <div className='w-full overflow-x-auto flex items-start justify-center flex-nowrap whitespace-nowrap p-[2.5%]'>
+            <div className='w-full overflow-x-auto flex flex-col lg:flex-row items-center lg:items-start justify-center flex-nowrap whitespace-nowrap p-[2.5%]'>
                 {
                     techstack.partners.map((person, index) => (
                         <div
