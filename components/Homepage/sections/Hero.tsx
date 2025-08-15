@@ -1,3 +1,4 @@
+"use client";
 import { ContainerScroll } from "@/components/ui/ContainerScrollAnimation";
 import Image from "next/image";
 import React from "react";
@@ -11,11 +12,13 @@ import { Goldman } from "next/font/google";
 import { Island_Moments } from "next/font/google";
 import laptop from "@/assets/Frame 26.png";
 import Link from "next/link";
+import { useEffect, useState } from "react";
+import { ReactNode } from "react";
 
-const islandMoments = Island_Moments({
-  weight: "400", // only 400 is available for this font
-  subsets: ["latin"],
-});
+interface Slide {
+  bg: string;
+  content: ReactNode;
+}
 
 const goldman = Goldman({
   subsets: ["latin"],
@@ -23,19 +26,82 @@ const goldman = Goldman({
   display: "swap",
 });
 
+// const slides: BackgroundSlide[] = [
+//   { bg: "relative z-10 overflow-y-visible  min-h-[100vh] h-[150vh] w-[100vw] flex items-center justify-start background px-[2.5%]", text: "Welcome to AgentX" },
+//   { bg: "bg-gradient-to-r from-green-400 to-blue-500", text: "Manage Your Agents with Ease" },
+//   { bg: "bg-gradient-to-r from-orange-400 to-red-500", text: "Automate. Optimize. Scale." },
+// ];
+
+const slides: Slide[] = [
+  {
+    bg: "relative z-10 overflow-y-visible  min-h-[100vh] h-[150vh] w-[100vw] flex items-center justify-start background px-[2.5%]",
+    content: (
+      <div className=" lg:w-[40%]">
+        <h1
+          className={`${goldman.className} text-white text-[45px] capitalize mb-4`}
+        >
+          Build your <span className="text-[#EEAD0E]">dream</span> website
+          today
+        </h1>
+        <h1
+          className={`${goldman.className} text-[40px] text-white lg:text-[#EEAD0E]`}
+        >
+          Technologies beyond possibility
+        </h1>
+      </div>
+    ),
+  },
+  {
+    bg: "relative z-10 overflow-y-visible  min-h-[100vh] h-[150vh] w-[100vw] flex items-center justify-start background px-[2.5%]",
+    content: (
+      <div className=" lg:w-[40%]">
+        <h1
+          className={`${goldman.className} text-white text-[45px] capitalize mb-4`}
+        >
+          Build your <span className="text-[#EEAD0E]">dream</span> mobile application
+          today
+        </h1>
+        <h1
+          className={`${goldman.className} text-[40px] text-white lg:text-[#EEAD0E]`}
+        >
+          Technologies beyond possibility
+        </h1>
+      </div>
+    ),
+  },
+];
+
+const islandMoments = Island_Moments({
+  weight: "400", // only 400 is available for this font
+  subsets: ["latin"],
+});
+
+
 const Hero = () => {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((prev) => (prev + 1) % slides.length);
+    }, 4000); // change every 4s
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <div
       id="home"
       className="z-[3] h-auto   w-[100vw] relative flex flex-col items-center justify-end"
     >
+      {/* <div className={`h-screen flex items-center justify-center text-white text-3xl font-bold transition-all duration-700 ${slides[index].bg}`}>
+        {slides[index].content}
+      </div> */}
       <div className="relative w-full h-full">
         {/* Top Section (overlapping) */}
         <div
           id="home"
-          className="relative z-10 overflow-y-visible  min-h-[100vh] h-[150vh] w-[100vw] flex items-center justify-start background px-[2.5%]"
+          className={`relative z-10 overflow-y-visible  min-h-[100vh] h-[150vh] w-[100vw] flex items-center justify-start  px-[2.5%] ${slides[index].bg}`}
         >
-          <div className=" w-[40%]">
+          {/* <div className=" lg:w-[40%]">
             <h1
               className={`${goldman.className} text-white text-[45px] capitalize mb-4`}
             >
@@ -43,16 +109,12 @@ const Hero = () => {
               today
             </h1>
             <h1
-              className={`${goldman.className} text-[40px] text-[#000033]`}
+              className={`${goldman.className} text-[40px] text-white lg:text-[#000033]`}
             >
               Technologies beyond possibility
             </h1>
-            {/* <h1
-              className={`${goldman.className} text-whit max-sm:text-[] max-sm: text-[#000033] [45px] capitalize mb-4`}
-            >
-              for better business
-            </h1> */}
-          </div>
+          </div> */}
+          {slides[index].content}
         </div>
 
         {/* Bottom Section (pushed up behind the top) */}
@@ -188,16 +250,26 @@ const Hero = () => {
                 Why Us?
               </h1>
               <p
-                className={`${goldman.className} text-center text-[#000033] text-[20px] w-[75%] mx-auto`}
+                className={`${goldman.className} text-center text-[#000033] text-[20px] w-[95%] lg:w-[75%] mx-auto`}
               >
                 Welcome to ZachTech Industries, where we convert your business
                 ideas into reality, using modern technology tools and
                 techniques. We don't just build technology we build
                 possibilities.
               </p>
+              <p
+                className={`${goldman.className} text-center text-[#000033] text-[20px] w-[95%] lg:w-[75%] mx-auto`}
+              >
+                Zachtech industries is a tech startup, redefining how businesses and individuals
+                harness the power of technology to achieve meaningful
+                progress. As a forward-thinking technology firm, we specialize
+                in delivering innovative, scalable solutions that empower
+                startups, SMES, and large enterprises to thrive in today's
+                digital world.
+              </p>
             </div>
 
-            <div className=" h-[90vh] w-full flex items-center justify-end px-[2.5%] max-sm:h-[auto] max-sm:flex-col">
+            {/* <div className=" h-[90vh] w-full flex items-center justify-end px-[2.5%] max-sm:h-[auto] max-sm:flex-col">
               <div className=" w-[35%] flex flex-col items-start justify-center max-sm:w-full">
                 <h1
                   className={`${goldman.className} text-[#000033] text-center text-[35px] mb-4 max-sm:text-[28px] max-sm:text-[#000033] max-sm:mt-10`}
@@ -215,7 +287,7 @@ const Hero = () => {
                   digital world.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
