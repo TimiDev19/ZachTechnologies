@@ -229,7 +229,7 @@ const Hero = () => {
         {/* Top Section (overlapping) */}
         <div
           id="whyus"
-          className="relative max-sm:h-[150vh] max-sm:flex-col z-10 overflow-y-visible flex items-center justify-center px-[2.5%]"
+          className="relative max-sm:h-[150vh] max-sm:flex-col z-10 overflow-y-visible flex items-center lg:items-start justify-center px-[2.5%]"
         >
           {/* <div className=' w-[40%]'>
                         <h1 className={`${goldman.className} text-white text-[45px] capitalize mb-4`}>Build your <span className='text-[#EEAD0E]'>dream</span> website today</h1>
@@ -242,7 +242,7 @@ const Hero = () => {
             className=" hidden lg:flex w-full -translate-x-2/5 absolute"
           />
 
-          <div className=" z-[10] relative h-full w-full flex flex-col items-center justify-center bg-transparent">
+          <div className=" z-[10] relative h-full lg:h-[200vh] w-full flex flex-col items-center justify-center bg-transparent">
             <div className=" h-[auto]">
               <h1
                 className={`${goldman.className} text-center text-[#000033] text-[45px] mb-4`}
