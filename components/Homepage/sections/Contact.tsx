@@ -21,7 +21,7 @@ const Contact = () => {
       >
         Contact <span className=" text-[#EEAD0E]">Us</span>
       </h1>
-      <div className=" h-[50vh] max-sm:h-auto w-screen mb-[50px] ">
+      <div className=" h-[50vh] max-sm:h-auto w-screen mb-[100px] block ">
         <form
           action=""
           className=" flex items-center justify-between w-[90%] mx-auto h-full max-sm:flex-col"
@@ -58,12 +58,12 @@ const Contact = () => {
         </form>
       </div>
 
-      <div className=" h-[90vh] max-sm:h-auto w-screen mb-[50px] flex max-sm:flex-col items-center justify-between px-[2.5%]">
+      <div className=" h-[90vh] max-sm:h-auto w-screen mb-[50px] mt-[30px] flex max-sm:flex-col items-center justify-between px-[2.5%]">
         <div className=" w-[45%] max-sm:w-full  h-full">
           <h1 className=" text-6xl max-sm:text-3xl mb-5">
             Make sure to keep in touch with us!
           </h1>
-          <p className=" mb-[20px]">
+          <p className=" mb-[20px] text-justify">
             Every project we take on is approached with creativity, technical
             excellence, and a clear focus on delivering real-world impact.
             Whether you're looking to launch a new product, streamline
