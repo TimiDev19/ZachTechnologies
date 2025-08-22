@@ -52,13 +52,49 @@ const slides: Slide[] = [
     ),
   },
   {
-    bg: "relative z-10 overflow-y-visible  min-h-[100vh] h-[150vh] w-[100vw] flex items-center justify-start background px-[2.5%]",
+    bg: "relative z-10 overflow-y-visible  min-h-[100vh] h-[150vh] w-[100vw] flex items-center justify-start background2 px-[2.5%]",
     content: (
       <div className=" lg:w-[40%]">
         <h1
           className={`${goldman.className} text-white text-[45px] capitalize mb-4`}
         >
-          Build your <span className="text-[#EEAD0E]">dream</span> mobile application
+          Build your <span className="text-[#EEAD0E]">dream</span> website
+          today
+        </h1>
+        <h1
+          className={`${goldman.className} text-[40px] text-white lg:text-[#EEAD0E]`}
+        >
+          Technologies beyond possibility
+        </h1>
+      </div>
+    ),
+  },
+  {
+    bg: "relative z-10 overflow-y-visible  min-h-[100vh] h-[150vh] w-[100vw] flex items-center justify-start background3 px-[2.5%]",
+    content: (
+      <div className=" lg:w-[40%]">
+        <h1
+          className={`${goldman.className} text-white text-[45px] capitalize mb-4`}
+        >
+          Build your <span className="text-[#EEAD0E]">dream</span> website
+          today
+        </h1>
+        <h1
+          className={`${goldman.className} text-[40px] text-white lg:text-[#EEAD0E]`}
+        >
+          Technologies beyond possibility
+        </h1>
+      </div>
+    ),
+  },
+  {
+    bg: "relative z-10 overflow-y-visible  min-h-[100vh] h-[150vh] w-[100vw] flex items-center justify-start background4 px-[2.5%]",
+    content: (
+      <div className=" lg:w-[40%]">
+        <h1
+          className={`${goldman.className} text-white text-[45px] capitalize mb-4`}
+        >
+          Build your <span className="text-[#EEAD0E]">dream</span> website
           today
         </h1>
         <h1

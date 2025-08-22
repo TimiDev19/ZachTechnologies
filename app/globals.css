@@ -14,6 +14,24 @@
   background-position: center;
   background-size: cover;
 }
+.background2 {
+  background-image: url(../assets/nbg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.background3 {
+  background-image: url(../assets/nbg3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.background4 {
+  background-image: url(../assets/nbg4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .background-vid {
   background-image: url(../assets/Frame\ 21.png);
   background-repeat: no-repeat;
